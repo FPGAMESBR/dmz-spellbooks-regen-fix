@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: dmzspellbooksfix
+Specification-Vendor: FPGAMESBR
+Specification-Version: 1
+Implementation-Title: DMZ Spellbooks Regen Fix
+Implementation-Version: 1.0.0
+Implementation-Vendor: FPGAMESBR
+MixinConfigs: dmzspellbooksfix.mixins.json

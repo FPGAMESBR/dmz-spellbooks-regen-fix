@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dmzspellbooksfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MagicManagerMixin",
+    "ServerPlayerEventsMixin",
+    "DmzIronsIntegrationEventsMixin",
+    "UtilsMixin",
+    "TechniqueTimingBridgeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

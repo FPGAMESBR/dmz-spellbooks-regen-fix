@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="dmzspellbooksfix"
+version="1.1.0"
+displayName="DMZ Spellbooks Regen Fix"
+authors="FPGAMESBR"
+description='''Fixes DMZ Spellbooks and Iron's Spells integration issues: Ki/Mana regeneration scaling, Counterspell vs Ki projectiles, Fortify permanent absorption leak, continuous spell mana checks, spell/addon capability detection, excludedSpellIds enforcement, SRG ki_damage attribute default patching, soft caps for Spell Resist and technique timing, and respawn Ki wipes.'''
+
+[[dependencies.dmzspellbooksfix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dmzspellbooksfix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dmzspellbooksfix]]
+    modId="dragonminez"
+    mandatory=true
+    versionRange="[2.1.2,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dmzspellbooksfix]]
+    modId="irons_spellbooks"
+    mandatory=true
+    versionRange="[1.20.1-3.16.2,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dmzspellbooksfix]]
+    modId="dmz_spellbooks"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

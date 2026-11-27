@@ -1,0 +1,14 @@
+build/
+out/
+test_out/
+*.jar
+*.class
+*.log
+*_args.txt
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
